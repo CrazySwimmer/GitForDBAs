@@ -1,0 +1,6 @@
+CREATE TABLE dbo.TEST
+(
+    id INT IDENTITY(1,1),
+    first_name VARCHAR(1000) NOT NULL,
+    CONSTRAINT PK_Test PRIMARY KEY CLUSTERED (id)
+);
